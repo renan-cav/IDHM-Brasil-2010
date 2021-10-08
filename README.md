@@ -22,7 +22,7 @@ Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 
 https://github.com/renan-cav
 
-Contributing
+## Contributing
 Faça o fork do projeto (https://github.com/renan-cav/IDHM-Brasil-2010)
 Crie uma branch para sua modificação
 Faça o commit
