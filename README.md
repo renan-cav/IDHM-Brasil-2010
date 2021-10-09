@@ -1,15 +1,19 @@
 # IDHM brasileiro em 2010
-Código Python para raspar dados de IDHM do Brasil diretamente do site do Programa das Nações Unidas para o Desenvolvimento (PNUD)
+Código Python para raspar dados de IDHM do Brasil diretamente do site do Programa das Nações Unidas para o Desenvolvimento (PNUD).
+
+O IDHM é o índice de desenvolvimento humano por municípios. O IDHM varia de 0 a 1 e quanto mais próximo do 1, mais desenvolvido é o município.
 
 O código criado com as bibliotecas CSV, Pandas e QuickDA lê o HTML do site em questão e retira as seguintes informações sobre o IDHM dos municípios brasileiros:
 
-* Ranking
-* Município
-* Estado
-* IDHM em 2010
-* IDHM de renda
-* IDHM de longevidade
-* IDHM educacional
+|Nome da variável | Descrição |
+| --- | --- |
+| ranking | Posição do Município no IDHM brasileiro |
+| municipio | Cidade |
+| estado | Estado |
+| idhm_2010 | IDHM do município no ano de 2010 |
+| idhm_renda | IDHM de renda do município em 2010 |
+| idhm_longev | IDHM de longevidade do município em 2010 |
+| idhm_edu | IDHM educacional do município em 2010 |
 
 ## Histórico de lançamentos
 0.0.1
